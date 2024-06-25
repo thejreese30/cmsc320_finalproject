@@ -6,7 +6,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import scipy.stats as stat
 
-# For first test idk if we should drop Nans or not, 223388 rows vs 1615 rows is a huge difference in avaible data 
+# For first test idk if we should drop Nans or not, 223388 rows vs 187308 rows is a good difference
 og_df = pd.read_csv('mlb_elo.csv')
 
 # Check the number of entries before cleaning
